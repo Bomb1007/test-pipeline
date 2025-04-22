@@ -20,5 +20,5 @@ jobs:
         key: ${{ secrets.VPS_SSH_KEY }}
         script: |
           echo "✅ Connexion réussie au VPS"
-          cd /test-pipeline
+          cd /root/test-pipeline
           git pull origin main
